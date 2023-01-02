@@ -9,38 +9,46 @@ body {
   background-color: #d6e2f0;
   font-family: "Outfit", sans-serif;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+
   background-color: #ffffff;
-  padding: 5px 10px;
-  width: 40vh;
-  height: 75vh;
+  padding: 0.75rem;
+  width: 13rem;
+  max-width: 20rem;
   text-align: center;
-  margin: 3em auto;
+  margin: 1.2rem auto;
   border-radius: 10px;
 }
 .qr-img {
   width: 100%;
   border-radius: 10px;
 }
-p {
-  padding-top: 10px;
-  font-size: 15px;
+.qr-text {
+  padding: 0.5rem;
 }
+
 .qr-about {
   color: #1f3251;
   font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 7.5px;
 }
 .qr-info {
   color: hsl(220, 15%, 55%);
+  font-size: 0.9rem;
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.625rem;
   text-align: center;
 }
 .attribution a {
