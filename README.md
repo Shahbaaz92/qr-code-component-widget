@@ -42,4 +42,4 @@ Mastering CSS
 ## Author
 
 - Website - [Shahbaaz Athhar](https://github.com/Shahbaaz92)
-- Frontend Mentor - [@Shahbaaz92](https://www.frontendmentor.io/profile/Shahbaaz92)
+- Frontend Mentor - [@Shahbaaz92](https://www.frontendmentor.io/profile/Shahbaaz92).
