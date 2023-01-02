@@ -29,15 +29,14 @@ body {
 }
 p {
   padding-top: 10px;
+  font-size: 15px;
 }
 .qr-about {
-  font-size: 15px;
   color: #1f3251;
   font-weight: 700;
 }
 .qr-info {
   color: hsl(220, 15%, 55%);
-  font-size: 12px;
 }
 
 .attribution {
