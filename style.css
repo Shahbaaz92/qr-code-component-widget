@@ -13,6 +13,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 .container {
   display: flex;
@@ -21,9 +22,8 @@ body {
   align-items: center;
   background-color: #ffffff;
   padding: 0.75em;
-  max-width: 240px;
+  max-width: 360px;
   text-align: center;
-  margin: 1.2rem auto;
   border-radius: 10px;
 }
 .qr-img {
@@ -37,16 +37,18 @@ body {
 .qr-about {
   color: #1f3251;
   font-weight: 700;
-  font-size: 1.15rem;
+  font-size: 1.35rem;
   margin-bottom: 0.625em;
 }
 .qr-info {
   color: hsl(220, 15%, 55%);
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
 
 .attribution {
   font-size: 0.625rem;
+  align-self: flex-end;
+  margin-top: 20px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
