@@ -22,8 +22,9 @@ body {
   align-items: center;
   background-color: #ffffff;
   padding: 0.75em;
-  max-width: 360px;
+  max-width: 20rem;
   text-align: center;
+  margin: 1rem;
   border-radius: 10px;
 }
 .qr-img {
